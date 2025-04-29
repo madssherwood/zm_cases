@@ -27,6 +27,10 @@
   transition: all 0.3s ease;
 }
 
+.slideshowImages img:hover {
+  transform: translateY(-5px);
+}
+
 @keyframes moveSlideshow {
     0% {
         transform: translateX(0);
